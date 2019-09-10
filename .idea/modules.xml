@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/audionormalizer.iml" filepath="$PROJECT_DIR$/.idea/audionormalizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rmsnormalize.iml" filepath="$PROJECT_DIR$/.idea/rmsnormalize.iml" />
     </modules>
   </component>
 </project>

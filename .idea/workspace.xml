@@ -1,9 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a576b9cf-df5c-4da2-9658-130ae4f5a858" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/ac3_parser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/adts_parser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/avcodec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/avfft.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/d3d11va.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/dirac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/dv_profile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/dxva2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/qsv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/vaapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/vda.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/vdpau.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavcodec/vorbis_parser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavdevice/avdevice.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavdevice/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavfilter/avfilter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavfilter/buffersink.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavfilter/buffersrc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavfilter/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavformat/avformat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavformat/avio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavformat/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavresample/avresample.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavresample/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/adler32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/aes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/attributes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/audio_fifo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/avassert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/avconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/avstring.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/avutil.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/base64.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/blowfish.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/bswap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/channel_layout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/cpu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/crc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/dict.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/display.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/downmix_info.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/error.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/eval.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/fifo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/file.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/frame.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/hmac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/hwcontext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/hwcontext_cuda.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/hwcontext_d3d11va.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/hwcontext_dxva2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/hwcontext_qsv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/hwcontext_vaapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/hwcontext_vdpau.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/imgutils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/intfloat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/intreadwrite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/lfg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/log.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/lzo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/mathematics.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/md5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/mem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/opt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/parseutils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/pixdesc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/pixfmt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/random_seed.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/rational.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/replaygain.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/samplefmt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/sha.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/spherical.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/stereo3d.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libavutil/xtea.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libswscale/swscale.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/include/libswscale/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libvpx-1080p.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libvpx-1080p50_60.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libvpx-360p.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libvpx-720p.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libvpx-720p50_60.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-baseline.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-fast.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-fast_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-faster.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-faster_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-ipod320.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-ipod640.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-lossless_fast.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-lossless_max.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-lossless_medium.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-lossless_slow.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-lossless_slower.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-lossless_ultrafast.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-main.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-medium.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-medium_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-placebo.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-placebo_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-slow.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-slow_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-slower.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-slower_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-superfast.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-superfast_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-ultrafast.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-ultrafast_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-veryfast.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-veryfast_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-veryslow.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/avconv/libx264-veryslow_firstpass.avpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/man/man1/avconv.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/man/man1/avplay.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/prerequisites/libav/share/man/man1/avprobe.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/rms_normalize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/normalized.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/original.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_0_normalized.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_1_normalized.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_2_normalized.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_3_normalized.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_4_normalized.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_5_normalized.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_6_normalized.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_7_normalized.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/audionormalizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rmsnormalize.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song2_1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/song2_1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song2_2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/song2_2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial_2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_2.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial_3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_3.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial_4.wav" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_4.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial_5.wav" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_5.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial_6.wav" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_6.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial_7.wav" beforeDir="false" afterPath="$PROJECT_DIR$/rmsnormalize/static/trial_7.wav" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QMzXLI68ah4mGrcVz78v1v1Yah" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="rmsnormalize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rms_normalize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rmsnormalize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rmsnormalize" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rmsnormalize/rms_normalize.py" />
+      <option name="PARAMETERS" value="trial_1.wav trial_2.wav trial_3.wav trial_4.wav trial_5.wav trial_6.wav trial_7.wav" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.rms_normalize" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a576b9cf-df5c-4da2-9658-130ae4f5a858" name="Default Changelist" comment="" />
+      <created>1567595291793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567595291793</updated>
+      <workItem from="1567595292942" duration="10763000" />
+      <workItem from="1567624231431" duration="2047000" />
+      <workItem from="1567683077244" duration="5242000" />
+      <workItem from="1567692270458" duration="2413000" />
+      <workItem from="1567695026534" duration="8415000" />
+      <workItem from="1567766585394" duration="10175000" />
+      <workItem from="1567880787640" duration="1595000" />
+      <workItem from="1567941770071" duration="4161000" />
+      <workItem from="1568110672753" duration="284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/audionormalizer/audionormalizer.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rmsnormalize/rms_normalize.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rmsnormalize/rms_normalize.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rmsnormalize/rms_normalize.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rmsnormalize$rms_normalize.coverage" NAME="rms_normalize Coverage Results" MODIFIED="1567944499179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rmsnormalize" />
+    <SUITE FILE_PATH="coverage/audionormalizer$audionormalizer.coverage" NAME="audionormalizer Coverage Results" MODIFIED="1567694668219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/audionormalizer" />
   </component>
 </project>
