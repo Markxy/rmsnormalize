@@ -1,6 +1,9 @@
 #Unignore all .exe files
 !*.exe
 
+#Pycharm
+.idea/
+
 #Audio files
 *.mp3
 *.wav
