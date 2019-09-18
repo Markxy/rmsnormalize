@@ -9,6 +9,7 @@ def get_current_file_path():
 
     :return: Returns script.py folder path for Python script, X:\\...\\temp\\MEI_x folder for .exe executable.
     """
+    curr_path = ''
     if getattr(sys, 'frozen', False):
         curr_path = sys.prefix
     elif __file__:
@@ -22,7 +23,7 @@ def get_current_os():
 
 
 def get_ffmpeg_executable_path(ffmpeg_folder_path):
-    return FFMPEG_EXECUTABLE_OS_DICT[get_current_os()]
+    return os.path.join(ffmpeg_folder_path, FFMPEG_EXECUTABLE_OS_DICT[get_current_os()])
 
 
 FFMPEG_EXECUTABLE_OS_DICT = {
@@ -38,8 +39,6 @@ PREREQUISITES_FOLDER_PATH = os.path.join(CURR_FILE_PATH, PREREQUISITES_FOLDER_NA
 PLATFORM_NAME = get_current_os()
 
 
-FFMPEG_EXE_NAME = "ffmpeg.exe"
-# FFPROBE_EXE_NAME = "ffprobe.exe"
 FFMPEG_FOLDER_NAME = "ffmpeg"
 FFMPEG_FOLDER_PATH = os.path.join(PREREQUISITES_FOLDER_PATH, PLATFORM_NAME, FFMPEG_FOLDER_NAME)
 FFMPEG_EXECUTABLE_PATH = get_ffmpeg_executable_path(FFMPEG_FOLDER_PATH)
