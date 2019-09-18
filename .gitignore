@@ -1,8 +1,8 @@
 #Audio files
-.mp3
-.wav
-.aac
-.flac
+*.mp3
+*.wav
+*.aac
+*.flac
 
 # Byte-compiled / optimized / DLL file_paths
 __pycache__/
@@ -35,7 +35,7 @@ MANIFEST
 #  Usually these file_paths are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
-*.spec
+# *.spec
 
 # Installer logs
 pip-log.txt
