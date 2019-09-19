@@ -7,5 +7,5 @@ pyinstaller \
 	--hidden-import numpy \
 	--hidden-import pydub \
 	--hidden-import rmsnormalize \
-	--add-binary ./prerequisites/Darwin;prerequisites/Darwin \
+	--add-binary "./prerequisites/Darwin:prerequisites/Darwin" \
 	rms_normalize.py
