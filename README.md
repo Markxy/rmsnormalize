@@ -5,6 +5,8 @@ The end goal is to normalize the RMS and dBFS levels for all of the audio files.
 
 The algorithm normalizes the audio files based on the non-silent parts of the audio files.
 
+The software is compatible with **Windows** and **MacOS**.
+
 ## FFmpeg
 This software uses libraries from the <a href=http://ffmpeg.org>FFmpeg</a> project under the LGPLv2.1.
   - We distribute the packages for FFmpeg's Windows & MacOS build's "ffmpeg" and "ffprobe".
