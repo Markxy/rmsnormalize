@@ -20,6 +20,8 @@ def rms_normalize(file_path_list, silence_thresh=st.DEFAULT_SILENCE_DBFS, is_sil
     :param is_silence_removed: A True or False value of whether to exclude silent parts of audios from dBFS calculation.
     :return: Returns 0 if process is completed.
     """
+    print("Process starting...")
+
     audios = get_audios(file_path_list)
 
     file_names, file_extensions, bit_rates = parse_file_info(file_path_list)

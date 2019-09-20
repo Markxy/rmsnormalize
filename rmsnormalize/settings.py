@@ -19,10 +19,21 @@ def get_current_file_path():
 
 
 def get_current_os():
+    """
+    Gets systems platform name. Darwin for MacOS, Windows for Windows.
+
+    :return:Platform name as string.
+    """
     return platform.system()
 
 
 def get_ffmpeg_executable_path(ffmpeg_folder_path):
+    """
+    Get's ffmpeg's executable path for current system, given the folder.
+
+    :param ffmpeg_folder_path: Folder path for the ffmpeg and ffprobe executable.
+    :return: ffmpeg executable path as absolute path.
+    """
     return os.path.join(ffmpeg_folder_path, FFMPEG_EXECUTABLE_OS_DICT[get_current_os()])
 
 
