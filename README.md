@@ -9,6 +9,10 @@ The software is compatible with **Windows** and **MacOS**.
 
 The original developer of this utility is <a href="https://github.com/Markxy/">Mark-Felix Mumma</a>.
 
+## External packages, software
+  - PyDub
+  - FFmpeg
+
 ## FFmpeg
 This software uses libraries from the <a href=http://ffmpeg.org>FFmpeg</a> project under the LGPLv2.1.
   - We distribute the packages for FFmpeg's Windows & MacOS build's "ffmpeg" and "ffprobe".
