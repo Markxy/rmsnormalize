@@ -9,7 +9,7 @@ The software is compatible with **Windows** and **MacOS**.
 
 The original developer of this utility is <a href="https://github.com/Markxy/">Mark-Felix Mumma</a>.
 
-## External packages, software
+### External packages, which this software uses and has packaged
   - PyDub
   - FFmpeg
 
