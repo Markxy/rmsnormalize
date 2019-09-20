@@ -62,3 +62,16 @@ To normalize the audio files without cutting out silence.
 To specify your own silence level in dbFS. The default is -64.
 
   - `.\rms_normalize.exe -silence_dbfs -50 .\trial_1.wav .\trial_2.wav .\trial_3.wav`
+
+# Building the executables
+Just run the corresponding shell executable.
+
+This will run pyinstaller with options defined in the shell scripts and output an executable in the `dist` folder.
+## On Windows
+```
+.\pyinstaller_win.bat
+```
+## On MacOS
+```
+bash ./pyinstaller_mac.sh
+```
