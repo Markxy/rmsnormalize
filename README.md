@@ -5,7 +5,9 @@ The end goal is to normalize the RMS and dBFS levels for all of the audio files.
 
 The algorithm normalizes the audio files based on the non-silent parts of the audio files.
 
-The software is compatible with **Windows** and **MacOS**.
+> The software is compatible with **Windows** and **MacOS**.
+
+> The software works with most common audio file types, such as: `mp3`, `wav`, `flac`, `m4a`, `aac` - the list is not exhaustive.
 
 The original developer of this utility is <a href="https://github.com/Markxy/">Mark-Felix Mumma</a>.
 
