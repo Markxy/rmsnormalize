@@ -72,7 +72,9 @@ To specify your own silence level in dbFS. The default is -64.
   - `.\rms_normalize.exe -silence_dbfs -50 .\trial_1.wav .\trial_2.wav .\trial_3.wav`
 
 # Building the executables
-Just run the corresponding shell executable in the `rmsnormalize` folder.
+You will need to have all of the libraries (argparse, numpy, pydub) which the program uses installed and in your python libs.
+
+To build the executables, run the corresponding shell executable in the `rmsnormalize` folder.
 
 This will run pyinstaller with options defined in the shell scripts and output an executable in the `dist` folder.
 ## On Windows
@@ -80,6 +82,9 @@ This will run pyinstaller with options defined in the shell scripts and output a
 .\pyinstaller_win.bat
 ```
 ## On MacOS
+Since MacOS has Python 2.7 installed by default and this program was coded in 3.7, the shell script modifies the pyinstaller build .spec file to use the correct python version with the line: `sed -i '' 's/mode: python ;/mode: python 3.7 ;/' rms_normalize.spec`.
+
+You may want to modify this if you are not using Python 3.7.
 ```
 bash ./pyinstaller_mac.sh
 ```
